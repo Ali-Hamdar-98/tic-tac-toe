@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #46464b;
+}
+.welcome{
+  font-size: 35px;
+  color: #d2dfe0;
+}
+.tictactoe{
+  font-weight: bolder;
+}
+.tic{
+  font-size: 70px;
+  color: #15ff00;
+}
+.tac{
+  font-size: 70px;
+  color: #ff0000;
+}
+.toe{
+  font-size: 70px;
+  color: #ffbb00;
+}
+.login{
+  font-size: 35px;
+  color:#d2dfe0;
+  margin: 5px;
+}
+.player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player label {
+  display: block;
+  margin: 10px;
+  color: #070000;
+  font-weight: bold;
+}
+.player input[type="text"] {
+  padding: 5px;
+  border: 1px solid #d2dfe0;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+}
+.player input[type="color"] {
+  vertical-align: middle;
+}
+.start{
+  padding: 5px;
+  margin-top: 10px;
+}
+
