@@ -154,10 +154,13 @@ body {
 }
 
 .popup {
-  background:#0084ff;
+  background: #0084ff;
   height: 50%;
   width: 50%;
-  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   z-index: 2;
   align-items: center;
@@ -165,6 +168,7 @@ body {
   flex-direction: column;
   gap: 1em;
   font-size: 12vmin;
+  text-align: center;
 }
 
 #new-game {
@@ -186,4 +190,7 @@ body {
   top:25%;
   left:25%;
   display: none;
+}
+#restart:hover {
+  background-color:#ff0101  ;
 }

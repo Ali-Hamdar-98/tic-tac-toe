@@ -117,7 +117,6 @@ const winChecker = () => {
     }
   }
 };
-
 btnRef.forEach((element) => {
   element.addEventListener("click", () => {
     if (element.innerText === "") {
@@ -154,3 +153,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('player1-info').style.color = player1Color;
   document.getElementById('player2-info').style.color = player2Color;
 });
+
+
+
+
+
