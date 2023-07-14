@@ -25,7 +25,6 @@ let restartBtn = document.getElementById("restart");
 let msgRef = document.getElementById("message");
 let player1WinsRef = document.getElementById("player1-wins");
 let player2WinsRef = document.getElementById("player2-wins");
-
 let winningPattern = [
   [0, 1, 2],
   [0, 3, 6],
